@@ -515,7 +515,7 @@ const _LARGE_RANGE_ERROR = "The specified range contains more than 65,536 addres
 /**
  * A regular expression that matches an IPv4 address
  */
-export const IPV4_REGEX = /^\s*((?:\d{1,3}\.){3}\d{1,3})\s*$/;
+export const IPV4_REGEX = new RegExp("((?:(?:\\d|[01]?\\d\\d|2[0-4]\\d|25[0-5])\\.){3}(?:25[0-5]|2[0-4]\\d|[01]?\\d\\d|\\d)(?:\\/\\d{1,2})?)");
 
 /**
  * A regular expression that matches an IPv6 address

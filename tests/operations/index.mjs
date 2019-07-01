@@ -90,7 +90,7 @@ import "./tests/Typex";
 import "./tests/BLAKE2b";
 import "./tests/BLAKE2s";
 import "./tests/Protobuf";
-import "./tests/ExtractAddresses";
+import "./tests/ExtractIPAddresses";
 
 // Cannot test operations that use the File type yet
 //import "./tests/SplitColourChannels";

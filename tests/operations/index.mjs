@@ -91,6 +91,7 @@ import "./tests/BLAKE2b";
 import "./tests/BLAKE2s";
 import "./tests/Protobuf";
 import "./tests/ExtractIPAddresses";
+import "./tests/GroupIPAddresses";
 
 // Cannot test operations that use the File type yet
 //import "./tests/SplitColourChannels";
